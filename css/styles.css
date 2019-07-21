@@ -213,7 +213,7 @@ nav h1 a {
 }
 #restaurant-container {
   position: relative;
-  width: 100%;
+  /* width: 100%; */
 }
 .inside #footer {
   width: 100%;
@@ -229,7 +229,7 @@ nav h1 a {
   line-height: 1.1;
 }
 #restaurant-img {
-	width: 90%;
+	width: 100%;
 }
 #restaurant-address {
   font-size: 12pt;
@@ -311,6 +311,16 @@ nav h1 a {
   }
   #restaurants-list li h1 {
     height: 35px;
+  }
+}
+@media (min-width: 750px) {
+  html, body {
+   overflow-x: hidden;
+  }
+}
+@media (min-width: 837px) {
+  #restaurant-container {
+    width: 100%;
   }
 }
 @media (min-width: 930px) {
